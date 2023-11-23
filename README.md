@@ -1,8 +1,3 @@
-# React + Vite
+This is a resume builder crafted with React.js, marking the initiation of my journey into the world of React development. Designed for simplicity, this project allows users to effortlessly create professional resumes. With an intuitive interface and real-time preview, it's the perfect starting point for those entering the realm of React. Feel free to explore, contribute, and tailor your resume-building experience.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Project is live at vercel.](https://resume-builder-subhranshu-sekhar-khilars-projects.vercel.app/)
