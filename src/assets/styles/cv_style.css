@@ -1,0 +1,29 @@
+.cv-personalDatas{
+    background-color: #082f49;
+    color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.cv-name{
+    text-align: center;
+    margin-bottom: 0.5rem;
+    
+}
+
+
+.cv-education-head, .cv-professional-ex-head{
+    background-color: #bae6fd;
+    height: 2rem;
+    padding-left: 0.5rem;
+}
+
+.cv-education-body{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0 1rem 0;
+}
+
+.cv-professional-ex{
+    margin-top: 2rem;
+}
