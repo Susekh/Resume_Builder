@@ -21,16 +21,16 @@ function EducationInfo(props){
    
     return (
         <>
-            <div>
+            <div className="input_divs">
                 <h1>Educational Details</h1>
                 <form>
-                        <label htmlFor="c-name" >College Name : </label>
+                        <label htmlFor="c-name" >College Name : </label><br/>
                         <input id="c-name" onChange={change(0)} value={educationDetails[0].value}></input><br></br>
-                        <label htmlFor="prof-degree" >Degree you are pursuing :</label>
+                        <label htmlFor="prof-degree" >Degree you are pursuing :</label><br/>
                         <input id="prof-degree" onChange={change(1)} value={educationDetails[1].value}></input><br></br>
-                        <label htmlFor="s-date" >Starting date : </label>
+                        <label htmlFor="s-date" >Starting date : </label><br/>
                         <DatePicker id="s-date" selected={date1} onChange={(date) => setDate1(date)} /><br/>
-                        <label htmlFor="e-date" >Ending date : </label>
+                        <label htmlFor="e-date" >Ending date : </label><br/>
                         <DatePicker id="e-date" selected={date2} onChange={(date) => setDate2(date)} />
                 </form>
             </div>

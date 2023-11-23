@@ -13,7 +13,9 @@
 
 
 .cv-education-head, .cv-professional-ex-head{
-    background-color: #bae6fd;
+    text-align: center;
+    background-color: #e2e8f0;
+    color: #082f49;
     height: 2rem;
     padding-left: 0.5rem;
 }
@@ -24,6 +26,19 @@
     padding: 0.5rem 0 1rem 0;
 }
 
-.cv-professional-ex{
-    margin-top: 2rem;
+.cv-professional-ex-head{
+    margin-top: 1rem;
+}
+
+.cv-professional-ex-body{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cv-professional-ex-body  div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
 }
